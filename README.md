@@ -20,12 +20,18 @@ Can be run two different ways. The first way without any arguments will then pro
 
 ```bash
 node index.js
+# or
+npm start
 ```
 
 The second way is the include one of the text file names as an arument like so:
 
 ```bash
 node index.js example1.txt
+# or
+npm run ex1
+npm run ex2
+npm run ex3
 ```
 
 ## Testing
@@ -34,9 +40,6 @@ All tests can be run using `yarn` or `npm` like so:
 
 ```bash
 yarn test
-```
-or
-
-```bash
+# or
 npm test
 ```

@@ -7,6 +7,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "ex1": "node index.js example1.txt",
+    "ex2": "node index.js example2.txt",
+    "ex3": "node index.js example3.txt",
     "test": "mocha tests/*.js"
   },
   "dependencies": {
